@@ -43,20 +43,24 @@ class ReglaValidacionGanimedes(ReglaValidacion):
 class ReglaValidacionCalisto(ReglaValidacion):
     def __init__(self, longitud_esperada):
         super().__init__(longitud_esperada)
-        pass
+    
 
 
     def contiene_calisto(self, clave):
-        pass
+        if clave.lower().count("calisto") == 0 or clave.upper().count("CALISTO") < 2:
+            return False
     
             
-
-        
 
     def es_valida(self, clave):
         return super().es_valida(clave)
 
     pass
+
+class Validador():
+    def __init__(self, reglas):
+        self.reglas = reglas
+        
 
 
 
