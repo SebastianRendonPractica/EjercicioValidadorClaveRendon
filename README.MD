@@ -51,6 +51,7 @@ utilizar los métodos de la clase `str` `isupper()`, `islower()` e `isdigit()`.
 * La clase `ReglaValidacionGanimedes` tiene un método `contiene_caracter_especial` donde debes 
 implementar la lógica para verificar si una clave contiene al menos uno de los caracteres 
 especiales `@` `_` `#` `$` `%`.
+
 * La clase `ReglaValidacionCalisto` tiene un método `contiene_calisto` donde debes implementar 
 la lógica para verificar si una clave contiene la palabra `calisto` escrita con al menos dos 
 letras mayúsculas, pero no con todas las letras mayúsculas.
