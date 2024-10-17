@@ -50,7 +50,6 @@ class ReglaValidacionCalisto(ReglaValidacion):
         if clave.lower().count("calisto") == 0 or clave.upper().count("CALISTO") < 2:
             return False
     
-            
 
     def es_valida(self, clave):
         return super().es_valida(clave)
@@ -60,7 +59,9 @@ class ReglaValidacionCalisto(ReglaValidacion):
 class Validador():
     def __init__(self, reglas):
         self.reglas = reglas
-        
+    pass
+
+
 
 
 
