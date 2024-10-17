@@ -46,6 +46,7 @@ la clave debe superar.
 `ReglaValidacion` implementan correspondientemente la lógica que verifica si una clave tiene una 
 letra mayúscula, tiene una letra minúscula y tiene un número. Para implementar dichos métodos puedes 
 utilizar los métodos de la clase `str` `isupper()`, `islower()` e `isdigit()`.
+
 * La clase `ReglaValidacionGanimedes` tiene un método `contiene_caracter_especial` donde debes 
 implementar la lógica para verificar si una clave contiene al menos uno de los caracteres 
 especiales `@` `_` `#` `$` `%`.
