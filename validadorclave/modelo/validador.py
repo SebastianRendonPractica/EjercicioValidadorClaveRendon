@@ -24,12 +24,31 @@ class ReglaValidacion(ABC):
 
     
 
-class ReglaValidacionGanimedes:
+class ReglaValidacionGanimedes(ReglaValidacion):
+    def __init__(self, longitud_esperada):
+        super().__init__(longitud_esperada)
 
     def contiene_caracter_especial(self):
+        pass
+
+    def es_valida(self, clave):
+        return super().es_valida(clave)
     pass
 
-class ReglaValidacionCalisto:
+
+
+class ReglaValidacionCalisto(ReglaValidacion):
+    def __init__(self, longitud_esperada):
+        super().__init__(longitud_esperada)
+        pass
+
+
+    def contiene_calisto(self):
+        pass
+
+    def es_valida(self, clave):
+        return super().es_valida(clave)
+
     pass
 
 

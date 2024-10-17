@@ -55,10 +55,12 @@ especiales `@` `_` `#` `$` `%`.
 * La clase `ReglaValidacionCalisto` tiene un método `contiene_calisto` donde debes implementar 
 la lógica para verificar si una clave contiene la palabra `calisto` escrita con al menos dos 
 letras mayúsculas, pero no con todas las letras mayúsculas.
+
 * Los métodos `es_valida` en las clases `ReglaValidacionGanimedes` y `ReglaValidacionCalisto`
 son las implementaciones del método abstracto de la clase padre. En estos métodos debes implementar 
 las reglas correspondientes a cada tipo de validación, utilizando los demás métodos donde están 
 definidas cada una de las reglas. 
+
 * Los métodos `es_valida` en las clases `ReglaValidacionGanimedes` y `ReglaValidacionCalisto` deben 
 arrojar excepciones para los casos en que no se cumplan las reglas. En el proyecto hay una jerarquía 
 de tipos de excepciones (en el módulo `errores.py`), correspondientes a cada regla, que debes utilizar 
