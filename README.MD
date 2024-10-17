@@ -42,6 +42,7 @@ debes tener en cuenta lo siguiente:
 la longitud de la clave. Para implementar dicho método debes tener en cuenta el atributo 
 `_longitud_esperada`, el cual es inicializado en el constructor de la clase e indica la longitud que 
 la clave debe superar.
+
 * Los métodos `_contiene_mayuscula`, `_contiene_minuscula` y `_contiene_numero` de la clase 
 `ReglaValidacion` implementan correspondientemente la lógica que verifica si una clave tiene una 
 letra mayúscula, tiene una letra minúscula y tiene un número. Para implementar dichos métodos puedes 
