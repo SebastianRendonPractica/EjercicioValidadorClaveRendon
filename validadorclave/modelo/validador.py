@@ -28,8 +28,11 @@ class ReglaValidacionGanimedes(ReglaValidacion):
     def __init__(self, longitud_esperada):
         super().__init__(longitud_esperada)
 
-    def contiene_caracter_especial(self):
-        pass
+    def contiene_caracter_especial(self, clave):
+        caracteres_especiales = "@_#$%"
+        if any(i in caracteres_especiales for i in clave):
+            return True
+        
 
     def es_valida(self, clave):
         return super().es_valida(clave)
@@ -43,8 +46,12 @@ class ReglaValidacionCalisto(ReglaValidacion):
         pass
 
 
-    def contiene_calisto(self):
+    def contiene_calisto(self, clave):
         pass
+    
+            
+
+        
 
     def es_valida(self, clave):
         return super().es_valida(clave)
